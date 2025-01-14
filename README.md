@@ -64,10 +64,10 @@ local queueteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (f
 local RunService = game:GetService("RunService")
 
 local Window = Rayfield:CreateWindow({
-    Name = "Build A Boat For Treasure🇻🇳",
+    Name = "Mouse Hub🇻🇳",
     Icon = 85108798400826,
-    LoadingTitle = "Build A Boat For Treasure🇻🇳",
-    LoadingSubtitle = "Made With ❤️ by Trần Mỹ Nhi",
+    LoadingTitle = "Mouse Hub🇻🇳",
+    LoadingSubtitle = "Made With Mouse Hub",
     Theme = "BlackBlue",
  
     DisableRayfieldPrompts = true,
@@ -542,6 +542,7 @@ while true do
     totalGoldBlock = FGBLOCK - IGBLOCK
 
     GoldPerHour = (totalGoldGained / clockTime) * 3600
+    
 
     FStats:Set({
         Title = "Điểm Số",
